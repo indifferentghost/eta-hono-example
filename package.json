@@ -11,6 +11,9 @@
     "eta": "^4.5.1",
     "hono": "^4.12.8"
   },
+  "engines": {
+    "node": ">=20.11.0"
+  },
   "devDependencies": {
     "@types/node": "^20.11.17",
     "tsx": "^4.7.1",

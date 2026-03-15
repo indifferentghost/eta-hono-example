@@ -1,0 +1,2 @@
+<% layout("layouts/base") %>
+<h1>Hello <%= it.name %></h1>

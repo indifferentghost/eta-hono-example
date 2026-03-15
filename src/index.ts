@@ -9,7 +9,7 @@ const eta = new Eta({
 });
 
 app.get('/', (c) => {
-  return c.html(eta.renderString('<% layout("layouts/base") %><h1>Hello <%= it.name %></h1>', { name: 'Node.JS', title: 'home' }));
+  return c.html(eta.render('home', { name: 'Node.JS', title: 'home' }));
 })
 
 serve({
